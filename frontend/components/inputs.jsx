@@ -6,12 +6,12 @@ const Inputs = () => {
       <div className="card">
         <div className="input">
           <h6 className="titulo">Numero 1:</h6>
-          <input type="text" />
+          <input type="number" name="" id="" />
         </div>
         <br />
         <div className="input">
           <h6 className="titulo">Numero 2:</h6>
-          <input type="text" />
+          <input type="number" name="" id="" />
         </div>
         <br />
         <button>Calcular</button>
