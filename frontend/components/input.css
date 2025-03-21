@@ -1,0 +1,17 @@
+.input{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    align-items: center;
+}
+
+.titulo{
+    padding-right: 40px;
+}
+
+button{
+width: 200px;
+    background-color: greenyellow;
+}

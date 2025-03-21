@@ -1,0 +1,14 @@
+.imagen{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.contenedorImagen{
+    align-items: center;
+}
+
+.card{
+    margin-left: 150px;
+    margin-right: 150px;
+}
