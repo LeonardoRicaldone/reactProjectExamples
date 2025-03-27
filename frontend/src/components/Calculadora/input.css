@@ -11,7 +11,16 @@
     padding-right: 40px;
 }
 
-button{
-width: 200px;
+.botonVerde{
+width: 100px;
     background-color: greenyellow;
+    margin-left: 20px;
+}
+
+.botonVerde:hover{
+    background-color: rgb(148, 241, 8);
+}
+
+.botones{
+    display: flex;
 }

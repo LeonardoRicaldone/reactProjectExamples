@@ -1,6 +1,7 @@
 import "./card.css";
 
 const Card = ({ titulo, descripcion, videojuegos, deporte, comida}) => {
+  
   return (
     <div class="card">
       <div className="contenedorImagen">

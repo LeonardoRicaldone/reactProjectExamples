@@ -1,10 +1,23 @@
-import Card from "../components/card";
-import Inputs from "../components/inputs";
+import { Routes, Route } from 'react-router-dom';
+/*import Home from './pages/Home';
+import About from './pages/About';    ejemplos de rutas*/
+import Card from "../src/components/Todo/card"
+import Inputs from "./components/calculadora/inputs";
 import "./App.css";
+import Todo from "./components/List/todoList";
+import RegistroEstudiante from "./components/ResgistroEstudiantes/registroEstudiante";
 
 function App() {
   return (
     <>
+
+    
+      <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+
+
       <Card
         titulo={"Hola, mi nombre es Leonardo"}
         descripcion={
@@ -21,6 +34,12 @@ function App() {
       <br />
       <br />
       <Inputs />
+      <br />
+      <br />
+      <Todo/>
+      <br />
+      <br />
+      <RegistroEstudiante/>
     </>
   );
 }
